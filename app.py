@@ -5,8 +5,8 @@ import streamlit as st
 
 #api = openaq.OpenAQ()
 #cdf = api.cities(country='CL', df=True)
-
-df = pd.read_csv('azufre.csv')
+st.write('HolaQL')
+#df = pd.read_csv('azufre.csv')
 
 #c = alt.Chart(df).mark_line().encode(
 #    x='fecha',    y='value',    color='city'
@@ -14,4 +14,4 @@ df = pd.read_csv('azufre.csv')
 #)
 
 #st.altair_chart(c)
-st.dataframe(df)
+#st.dataframe(df)
