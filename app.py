@@ -8,12 +8,10 @@ import streamlit as st
 
 df = pd.read_csv('azufre.csv')
 
-c = alt.Chart(df).mark_line().encode(
-    x='fecha',
-    y='value',
-    color='city'
-    #strokeDash='symbol',
-)
+#c = alt.Chart(df).mark_line().encode(
+#    x='fecha',    y='value',    color='city'
+#    #strokeDash='symbol',
+#)
 
-st.altair_chart(c)
+#st.altair_chart(c)
 st.dataframe(df)
